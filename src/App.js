@@ -49,7 +49,7 @@ function AccordionItem({ num, title, text }) {
   return (
     <div className={isOpen ? "item open" : "item"} onClick={handleToggle}>
       <p className="number">{num}</p>
-      <p className="title">{title}</p>
+      <p className="title">{title}</p>dio
       <p className="icon">{!isOpen ? "+" : "-"}</p>
       {isOpen && <div className="content-box">{text}</div>}
     </div>
